@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Kaitos2._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\MenuButtonsImages\export_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\home_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\ocr_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\page_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\profil_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\project_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\protocol_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\scan_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\settings_button_image.png" />
+    <None Remove="Resources\MenuButtonsImages\structure_button_image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\MenuButtonsImages\home_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\MenuButtonsImages\export_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\ocr_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\page_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\profil_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\project_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\protocol_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\scan_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\settings_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\MenuButtonsImages\structure_button_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
